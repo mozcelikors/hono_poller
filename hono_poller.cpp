@@ -20,7 +20,7 @@
 #include "hono_interaction.h"
 
 
-#define H_HOST "idial.institute"
+#define H_HOST "localhost"
 #define H_PORT ((int)8080)
 #define H_TENANT "DEFAULT_TENANT"
 
