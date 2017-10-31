@@ -20,7 +20,7 @@
 
 //Defines
 
-#define DEBUG_HTTP_RESPONSE 1
+//#define DEBUG_HTTP_RESPONSE 1
 #define DEBUG_DEVICE_REGISTRATION 1
 
 
@@ -30,5 +30,6 @@ int registerEntriesToHonoInstance (void);
 int registerDeviceToHonoInstance (char * host_name, int port, char * tenant_name, char * device_id);
 int sendTelemetryDataToHonoInstance (char * host_name, int port, char * tenant_name, char * device_id, char * field, double value);
 int sendEventDataToHonoInstance (char * host_name, int port, char * tenant_name, char * device_id, char * field, double value);
+int handleCode(int code);
 
 #endif /* HONO_INTERACTION_HONO_INTERACTION_H_ */
